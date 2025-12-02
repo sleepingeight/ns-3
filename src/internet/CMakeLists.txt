@@ -117,6 +117,7 @@ set(source_files
     model/tcp-tx-buffer.cc
     model/tcp-tx-item.cc
     model/tcp-vegas.cc
+    model/tcp-fast.cc
     model/tcp-veno.cc
     model/tcp-westwood-plus.cc
     model/tcp-yeah.cc
@@ -241,6 +242,7 @@ set(header_files
     model/tcp-tx-buffer.h
     model/tcp-tx-item.h
     model/tcp-vegas.h
+    model/tcp-fast.h
     model/tcp-veno.h
     model/tcp-westwood-plus.h
     model/tcp-yeah.h

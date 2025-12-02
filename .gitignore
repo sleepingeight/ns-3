@@ -50,3 +50,7 @@ vcpkg/
 
 # Ignore local cache used by e.g. clangd
 .cache/
+
+.DS_Store
+compile_commands.json
+env/

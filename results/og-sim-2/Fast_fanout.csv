@@ -1,0 +1,2 @@
+TCP_Variant,Total_Throughput_Mbps,Avg_Throughput_Per_Flow_Mbps,Avg_Delay_ms,Total_Lost_Packets,Loss_Rate_Percent,Num_Flows
+Fast,5.8597,0.6511,498.0000,414,1.3598,9

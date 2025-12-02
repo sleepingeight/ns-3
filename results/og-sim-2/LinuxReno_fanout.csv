@@ -1,0 +1,2 @@
+TCP_Variant,Total_Throughput_Mbps,Avg_Throughput_Per_Flow_Mbps,Avg_Delay_ms,Total_Lost_Packets,Loss_Rate_Percent,Num_Flows
+LinuxReno,5.7320,0.6369,443.4444,583,1.9459,9

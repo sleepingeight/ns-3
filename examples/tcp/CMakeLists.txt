@@ -125,3 +125,41 @@ build_example(
     ${libapplications}
     ${libtraffic-control}
 )
+
+build_example(
+  NAME tcp-multi-rtt-bottleneck
+  SOURCE_FILES tcp-multi-rtt-bottleneck.cc
+  LIBRARIES_TO_LINK
+    ${libcore}
+    ${libnetwork}
+    ${libinternet}
+    ${libpoint-to-point}
+    ${libapplications}
+    ${libtraffic-control}
+)
+
+build_example(
+  NAME og-sim-2
+  SOURCE_FILES og-sim-2.cc
+  LIBRARIES_TO_LINK
+    ${libcore}
+    ${libnetwork}
+    ${libinternet}
+    ${libpoint-to-point}
+    ${libapplications}
+    ${libtraffic-control}
+    ${libflow-monitor}
+)
+
+build_example(
+  NAME reno-equilibrium
+  SOURCE_FILES reno-equilibrium.cc
+  LIBRARIES_TO_LINK
+    ${libcore}
+    ${libnetwork}
+    ${libinternet}
+    ${libpoint-to-point}
+    ${libapplications}
+    ${libtraffic-control}
+    ${libflow-monitor}
+)
